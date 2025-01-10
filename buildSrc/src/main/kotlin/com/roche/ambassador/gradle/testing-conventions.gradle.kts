@@ -95,7 +95,7 @@ val ci by tasks.registering {
 }
 
 dependencies {
-    testImplementation("io.mockk:mockk:1.12.4")
+    testImplementation("io.mockk:mockk:1.13.16")
     testImplementation("org.junit.jupiter:junit-jupiter:$junitVersion")
     testImplementation("org.assertj:assertj-core:3.22.0")
     testImplementation("com.devskiller:jfairy:0.6.5")
